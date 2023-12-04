@@ -42,6 +42,5 @@ func InferCsvToTable(csvPath string) (arrow.Table, error) {
 
 	// create table
 	table := array.NewTableFromRecords(records[0].Schema(), records) // this releases the records and is the reason rec.Retain() is needed above
-	fmt.Println(table)
 	return table, nil
 }

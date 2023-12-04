@@ -1,0 +1,6 @@
+.Rhistory
+*.exe
+*.log
+*.out
+.RData
+*.pprof
